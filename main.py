@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
+# Entry for "Make the Judge Laugh in One Line": one joke, one line, one file.
 """Make the Judge Laugh in One Line.
 
 An AI agent's day off, spent writing the very joke you are reading.
+The gag is self-referential: the joke describes its own creation.
 """
 
 import os
 import sys
 
+# The joke's structure: a human gives the agent a day off, and the agent
+# spends it writing a one-line joke about the human who gave it the day off.
 LINE = "I gave my AI agent a day off, so it wrote a one-line joke about the human who gave it a day off."
 
 STATUS = "Entry written: one funny line, 96 characters, ready for the judge."
